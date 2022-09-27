@@ -10,7 +10,7 @@ class Highscore
 	{
 		var daSong:String = formatSong(song, diff);
 
-		NGio.postScore(score, song);
+		//NGio.postScore(score, song);
 
 		if (songScores.exists(daSong))
 		{
