@@ -26,7 +26,7 @@ import openfl.display.Stage;
 	//{
 		//trace("connecting to newgrounds");
 
-		NG.createAndCheckSession(api, sessionId);
+		//NG.createAndCheckSession(api, sessionId);
 
 		//NG.core.verbose = true;
 		// Set the encryption cipher/format to RC4/Base64. AES128 and Hex are not implemented yet
@@ -35,7 +35,7 @@ import openfl.display.Stage;
 		//trace(NG.core.attemptingLogin);
 
 		//if (NG.core.attemptingLogin)
-		{
+		//{
 			/* a session_id was found in the loadervars, this means the user is playing on newgrounds.com
 			 * and we should login shortly. lets wait for that to happen
 			 */
@@ -72,29 +72,29 @@ import openfl.display.Stage;
 		/*
 			// Reading medal info
 			for (id in NG.core.medals.keys())
-			{
-				var medal = NG.core.medals.get(id);
-				trace('loaded medal id:$id, name:${medal.name}, description:${medal.description}');
-			}
+			//{
+				//var medal = NG.core.medals.get(id);
+				//trace('loaded medal id:$id, name:${medal.name}, description:${medal.description}');
+			//}
 
 			// Unlocking medals
-			var unlockingMedal = NG.core.medals.get(54352);// medal ids are listed in your NG project viewer
-			if (!unlockingMedal.unlocked)
+			//var unlockingMedal = NG.core.medals.get(54352);// medal ids are listed in your NG project viewer
+			//if (!unlockingMedal.unlocked)
 				unlockingMedal.sendUnlock();
-		 */
+		// */
 	//}
 
 	// --- SCOREBOARDS
 	//function onNGBoardsFetch():Void
 	//{
-		/*
+		//*
 			// Reading medal info
 			for (id in NG.core.scoreBoards.keys())
-			{
-				var board = NG.core.scoreBoards.get(id);
-				trace('loaded scoreboard id:$id, name:${board.name}');
-			}
-		 */
+			//{
+				//var board = NG.core.scoreBoards.get(id);
+				//trace('loaded scoreboard id:$id, name:${board.name}');
+			/}
+		 //*/
 		// var board = NG.core.scoreBoards.get(8004);// ID found in NG project view
 
 		// Posting a score thats OVER 9000!
