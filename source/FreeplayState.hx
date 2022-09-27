@@ -13,7 +13,7 @@ import lime.utils.Assets;
 
 class FreeplayState extends MusicBeatState
 {
-	var songs:Array<String> = ["Bopeebo", "Dadbattle", "Fresh", "Tutorial", "Ugh", "Guns", "Stress"];
+	var songs:Array<String> = ["Bopeebo", "Dadbattle", "Fresh", "Tutorial", "Ugh", "Guns", "Stress", "Test"];
 
 	var selector:FlxText;
 	var curSelected:Int = 0;
