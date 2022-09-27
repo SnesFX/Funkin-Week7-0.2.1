@@ -64,5 +64,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: linuxBuild
-          path: 'export/release/linux/bin'
+          name: html5Build
+          path: 'export/release/html5/bin'
