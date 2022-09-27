@@ -71,7 +71,7 @@ import openfl.display.Stage;
 	//{
 		/*
 			// Reading medal info
-			for (id in NG.core.medals.keys())
+			//for (id in NG.core.medals.keys())
 			//{
 				//var medal = NG.core.medals.get(id);
 				//trace('loaded medal id:$id, name:${medal.name}, description:${medal.description}');
@@ -80,7 +80,7 @@ import openfl.display.Stage;
 			// Unlocking medals
 			//var unlockingMedal = NG.core.medals.get(54352);// medal ids are listed in your NG project viewer
 			//if (!unlockingMedal.unlocked)
-				unlockingMedal.sendUnlock();
+				//unlockingMedal.sendUnlock();
 		// */
 	//}
 
@@ -89,7 +89,7 @@ import openfl.display.Stage;
 	//{
 		//*
 			// Reading medal info
-			for (id in NG.core.scoreBoards.keys())
+			//for (id in NG.core.scoreBoards.keys())
 			//{
 				//var board = NG.core.scoreBoards.get(id);
 				//trace('loaded scoreboard id:$id, name:${board.name}');
