@@ -17,7 +17,7 @@ class StoryMenuState extends MusicBeatState
 {
 	var scoreText:FlxText;
 
-	var weekData:Array<Dynamic> = [['Tutorial'], ['Test'], ['Bopeebo', 'Fresh', 'Dadbattle'], ['Spookeez', 'South'], ['Ugh','Guns','Stress']];
+	var weekData:Array<Dynamic> = [['Tutorial'], ['Monster'], ['Bopeebo', 'Fresh', 'Dadbattle'], ['Spookeez', 'South'], ['Ugh','Guns','Stress']];
 	var curDifficulty:Int = 1;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true];
