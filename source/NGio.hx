@@ -13,7 +13,7 @@ import openfl.display.Stage;
  * MADE BY GEOKURELI THE LEGENED GOD HERO MVP
  */
 //class NGio
-{
+//{
 	//public static var isLoggedIn:Bool = false;
 	//public static var scoreboardsLoaded:Bool = false;
 
