@@ -3,6 +3,7 @@
 
 This is just a little project that I tried to do but it failed so uhh the Characters.hx needs to be fixed so you can fork and fix it yourself if you want to but I know that I won't be touching this for a while.
 
+Main code: https://github.com/Ty1991twitter/Funkin-Week7-0.2.0/tree/main
 
 # Funk 7 Engine
 
