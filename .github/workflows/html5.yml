@@ -43,6 +43,8 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
+          haxelib install newgrounds
+          haxelib git polymod https://github.com/AngelDTF/haxe-polymod
           haxelib install tjson
           haxelib install hxjsonast
           haxelib install hxCodec
