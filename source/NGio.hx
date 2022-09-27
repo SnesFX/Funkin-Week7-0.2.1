@@ -93,7 +93,7 @@ import openfl.display.Stage;
 			//{
 				//var board = NG.core.scoreBoards.get(id);
 				//trace('loaded scoreboard id:$id, name:${board.name}');
-			/}
+			//}
 		 //*/
 		// var board = NG.core.scoreBoards.get(8004);// ID found in NG project view
 
