@@ -181,7 +181,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		NGio.logEvent('Fresh');
+		//NGio.logEvent('Fresh');
 
 		curSelected += change;
 
