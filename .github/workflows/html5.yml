@@ -45,6 +45,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install newgrounds
           haxelib install markdown
+          haxelib install HtmlParser
           haxelib git polymod https://github.com/AngelDTF/haxe-polymod
           haxelib install tjson
           haxelib install hxjsonast
