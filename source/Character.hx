@@ -162,6 +162,8 @@ class Character extends FlxSprite
 					playAnim('danceLeft');
 			case 'dad':
 				playAnim('idle');
+			case 'tankman':
+				playAnim('idle');
 			case 'monster':
 				playAnim('idle');
 		}
