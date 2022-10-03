@@ -103,6 +103,35 @@ class Character extends FlxSprite
 				addOffset("singLEFT", -30);
 				addOffset("singDOWN", -30, -40);
 				playAnim('idle');
+			case 'tankman':
+				// DAD ANIMATION LOADING CODE
+				tex = FlxAtlasFrames.fromSparrow(AssetPaths.tankmanCaptain__png, AssetPaths.tankmanCaptain__xml);				
+				frames = tex;
+				animation.addByPrefix('idle', 'Tankman Idle Dance instance', 24);
+				animation.addByPrefix('singUP', 'Tankman UP note instance', 24);
+				animation.addByPrefix('singRIGHT', 'Tankman Right Note instance', 24);
+				animation.addByPrefix('singDOWN', 'Tankman DOWN note instance', 24);
+				animation.addByPrefix('singLEFT', 'Tankman Note Left instance', 24);
+				animation.addByPrefix('ugh', 'TANKMAN UGH instance', 24);
+				animation.addByPrefix('prettygood', 'PRETTY GOOD tankman instance', 24);
+				playAnim('idle');
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+				addOffset('ugh');
+				addOffset('prettygood');
+			case 'picoSpeaker':
+				// GIRLFRIEND CODE
+				tex = FlxAtlasFrames.fromSparrow(AssetPaths.picoSpeaker__png, AssetPaths.picoSpeaker__xml);
+				frames = tex;
+				animation.addByIndices('danceRight', 'Pico shoot', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+
+				addOffset('danceRight', 0, -9);
+
+				playAnim('danceRight');
 		}
 	}
 
@@ -132,6 +161,8 @@ class Character extends FlxSprite
 				else
 					playAnim('danceLeft');
 			case 'dad':
+				playAnim('idle');
+			case 'tankman':
 				playAnim('idle');
 			case 'monster':
 				playAnim('idle');
