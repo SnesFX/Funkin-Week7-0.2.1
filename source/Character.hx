@@ -104,7 +104,6 @@ class Character extends FlxSprite
 				addOffset("singDOWN", -30, -40);
 				playAnim('idle');
 			case 'tankman':
-				// DAD ANIMATION LOADING CODE
 				tex = FlxAtlasFrames.fromSparrow(AssetPaths.tankmanCaptain__png, AssetPaths.tankmanCaptain__xml);
 				frames = tex;
 				animation.addByPrefix('idle', 'Tankman Idle Dance instance', 24);
@@ -116,23 +115,22 @@ class Character extends FlxSprite
 				animation.addByPrefix('prettygood', 'PRETTY GOOD tankman instance', 24);
 				playAnim('idle');
 
-				addOffset('idle', 0, 0);
-				addOffset("singUP", 24, 56);
-				addOffset("singRIGHT", -1, -7);
-				addOffset("singLEFT", 100, 14);
-				addOffset("singDOWN", 98, -90);
-				addOffset('singUPalt', 24, 56);
-				addOffset('singDOWNalt', 98, 90);
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, 30);
+				addOffset('singUPalt', -6, 50);
+				addOffset('singDOWNalt', 0, 30);
 			case 'picoSpeaker':
-				// GIRLFRIEND CODE
 				tex = FlxAtlasFrames.fromSparrow(AssetPaths.picoSpeaker__png, AssetPaths.picoSpeaker__xml);
 				frames = tex;
 				animation.addByPrefix('Pico shoot', 'Pico shoot', 24);
 				
-				addOffset('shoot1', 0, 0);
-				addOffset('shoot2', -1, -128);
-				addOffset('shoot3', 412, -64);
-				addOffset('shoot4', 439, -19);
+				addOffset('shoot1', 0, -9);
+				addOffset('shoot2', 0, -9);
+				addOffset('shoot3', 0, -9);
+				addOffset('shoot4', 0, -9);
 				
 				playAnim('Pico shoot');
 
